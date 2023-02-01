@@ -17,7 +17,7 @@ Hi! I'm your first Markdown file in **StackEdit**. If you want to learn about St
 
 
 ## Downloads
-[![Download](https://img.shields.io/badge/Download-Latest%20Version-blue.svg)](https://drive.google.com/file/d/15D_g5K9f4nINoxVdAySeCx-6K84LldJZ/view?usp=sharing)
+[![Download](https://img.shields.io/badge/Download-Latest%20Version-blue.svg)](https://github.com/ViselnikAscet/ElectronJS-EncryptionApp/raw/master/Windows%20App%20(exe).zip)
 
 
 # End
