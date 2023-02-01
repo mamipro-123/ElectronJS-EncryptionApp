@@ -1,6 +1,6 @@
 
 # Electron Js Encryption and Decryption Application
-Hi! I'm your first Markdown file in **StackEdit**. If you want to learn about StackEdit, you can read me. If you want to play with Markdown, you can edit me. Once you have finished with me, you can create new files by opening the **file explorer** on the left corner of the navigation bar.
+The application has the ability to encrypt and decrypt the entered text using the aes-256-cbc algorithm, providing you with secure storage for your sensitive information. With the "Save" button, you can easily store your encrypted messages in any desired location, making the application your trusted, personal journal.
 # Features
 
  - This application features encryption and decryption using the AES-256-CBC algorithm.
