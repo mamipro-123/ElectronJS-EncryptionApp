@@ -1,0 +1,36 @@
+{
+  "name": "Encryption-App",
+  "productName": "Encryption App",
+  "description": "My Electron application description",
+  "keywords": [],
+  "main": "./main.js",
+  "version": "1.0.0",
+  "author": "muham",
+  "scripts": {
+    "build:win": "electron-builder --win",
+    "build-windows": "electron-packager . Encryption App --platform=win32 --arch=x64 --icon=Assets/icons/win/lock.ico",
+    "build-mac": "electron-packager . Encryption App --platform=darwin --arch=x64 --icon=Assets/icons/mac/lock.icns",
+    "build-linux": "electron-packager . Encryption App --platform=linux --arch=x64 --icon=Assets/icons/linux/lock.png",
+    "start": "electron .",
+    "make": "electron-forge make"
+  },
+  "devDependencies": {
+    "electron-forge": "^5.2.4",
+    "electron-prebuilt-compile": "22.0.2"
+  },
+  "build": {
+    "icon": "Assets/icons/win/lock.ico",
+    "win": {
+      "target": "nsis"
+    },
+    "nsis": {
+      "oneClick": false,
+      "perMachine": true,
+      "allowElevation": true,
+      "allowToChangeInstallationDirectory": true
+    }
+  },
+  "dependencies": {
+    "update-electron-app": "^2.0.1"
+  }
+}

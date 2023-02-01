@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css'>
+    <link rel="stylesheet" href="style.css">
+
+    <title>Ascii Encrytped</title>
+    <style>
+       
+        body {
+            resize: none;
+            background-color: #2f3241;
+
+        }
+    </style>
+</head>
+
+<body>
+
+<div>
+
+
+    <div class="ta-c padT150">
+        <button id="btnEncrypted" class="button cancel-btn">
+            Encryption
+        </button>
+        <button id="btnDecrypted" class="button accept-btn">
+            Decryption
+        </button>
+        <div class="content centered">
+
+            <textarea rows="3" placeholder="Enter Your Text" id="textArea"
+                      style="height: 50px; max-height: 360px; width: 490px;"></textarea>
+
+            <button id="btnClear" class="button clear-btn" style="position:absolute; right:10px; bottom: 445px;">
+
+                Clear
+            </button>
+            <button id="btnSave" class="button save-btn" style="position:absolute; left:10px; bottom: 445px;">
+                Save
+            </button>
+
+        </div>
+        <script src="style.js"></script>
+    </div>
+    <div>
+    </div>
+    <div id="githubBtn" style=" left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 50px;">
+        <button id="btnGithub" class="button github-btn">
+            Github
+        </button>
+    </div>
+
+
+    <script src="./script.js"></script>
+</div>
+</body>
+
+</html>
